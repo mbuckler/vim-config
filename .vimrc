@@ -17,8 +17,8 @@ Plugin 'VundleVim/Vundle.vim'
 " (The latter must be installed before it can be used.)                  
 Plugin 'google/vim-maktaba'                                              
 Plugin 'google/vim-codefmt'                                              
-" Also add Glaive, which is used to configure codefmt's maktaba flags. See
-" `:help :Glaive` for usage.                                             
+" Also add Glaive, which is used to configure codefmt's maktaba flags.
+" See `:help :Glaive` for usage.                                             
 Plugin 'google/vim-glaive'                                               
 Plugin 'LaTeX-Box-Team/LaTeX-Box'                                        
 " ...                                                                    
@@ -32,10 +32,11 @@ filetype plugin indent on    " required
 "filetype plugin on                                                      
 "                                                                        
 " Brief help                                                             
-" :PluginList       - lists configured plugins                           
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just
+" :PluginUpdate :PluginSearch foo - searches for foo; append `!` to
+" refresh local cache :PluginClean      - confirms removal of unused
+" plugins; append `!` to auto-approve removal
 "                                                                        
 " see :h vundle for more details or wiki for FAQ                         
 " Put your non-Plugin stuff after this lineset expandtab                 
@@ -47,3 +48,4 @@ set wrap
 set colorcolumn=+1                                                       
 set spelllang=en_us 
 set number
+hi ColorColumn ctermbg=7
