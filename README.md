@@ -9,15 +9,16 @@ Install sensible.vim: https://github.com/tpope/vim-sensible
 
 Clone this repo and copy .vimrc to home directory
 
+Install all packages from command line: `vim +PluginInstall +qall`
+
 ## For Latex
 
-To force line wrapping for paragraphs, select text and then use gq
+To force line wrapping for paragraphs, select text and then use `:gq`
 
 To start a background process that automatically compiles your latex and
 generates a pdf
 `latexmk -pvc -pdf main.tex &`
 
-# General useful info
+## General useful info
 
-Empty for now
-
+Search and replace: `:%s/foo/bar/g`
