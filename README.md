@@ -13,7 +13,7 @@ Install all packages from command line: `vim +PluginInstall +qall`
 
 ## For Latex
 
-To force line wrapping for paragraphs, select text and then use `:gq`
+To force line wrapping for paragraphs, select text in visual mode and then use `gq`
 
 To start a background process that automatically compiles your latex and
 generates a pdf
