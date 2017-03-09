@@ -11,7 +11,7 @@ Clone this repo and copy .vimrc to home directory
 
 Install all packages from command line: `vim +PluginInstall +qall`
 
-## General useful info
+## General Useful VIM Commands
 
 Search and replace: `:%s/foo/bar/g`
 
