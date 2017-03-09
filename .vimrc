@@ -48,4 +48,5 @@ set wrap
 set colorcolumn=+1                                                       
 set spelllang=en_us 
 set number
+set nojoinspaces
 hi ColorColumn ctermbg=7
