@@ -40,9 +40,9 @@ filetype plugin indent on    " required
 "                                                                        
 " see :h vundle for more details or wiki for FAQ                         
 " Put your non-Plugin stuff after this lineset expandtab                 
-set tabstop=2                                                            
+set tabstop=4
 retab                                                                    
-set shiftwidth=2                                                         
+set shiftwidth=4
 set textwidth=72                                                         
 set wrap                                                                 
 set colorcolumn=+1                                                       
