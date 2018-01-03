@@ -37,7 +37,6 @@ filetype plugin indent on    " required
 " :PluginUpdate :PluginSearch foo - searches for foo; append `!` to
 " refresh local cache :PluginClean      - confirms removal of unused
 " plugins; append `!` to auto-approve removal
-<<<<<<< HEAD
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this lineset expandtab
@@ -48,18 +47,6 @@ set textwidth=80
 set wrap
 set colorcolumn=+1
 set spelllang=en_us
-=======
-"                                                                        
-" see :h vundle for more details or wiki for FAQ                         
-" Put your non-Plugin stuff after this lineset expandtab                 
-set tabstop=4
-retab                                                                    
-set shiftwidth=4
-set textwidth=72                                                         
-set wrap                                                                 
-set colorcolumn=+1                                                       
-set spelllang=en_us 
->>>>>>> 90d3e3008a1879c04e82aab6ac6c287ef77539f3
 set number
 set nojoinspaces
 highlight ExtraWhitespace ctermbg=red guibg=red
