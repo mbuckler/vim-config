@@ -52,3 +52,5 @@ set nojoinspaces
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 hi ColorColumn ctermbg=7
+" Uncomment below if you are using a terminal with a black background
+" set background=dark
