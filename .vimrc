@@ -40,6 +40,8 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this lineset expandtab
+
+" Manage tabs, spaces, and general whitespace
 set tabstop=4
 retab
 set shiftwidth=4
@@ -47,10 +49,22 @@ set textwidth=80
 set wrap
 set colorcolumn=+1
 set spelllang=en_us
-set number
 set nojoinspaces
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
+
+" Use line numbers
+set number
+
+" Set column to be cleaner grey color
 hi ColorColumn ctermbg=7
-" Uncomment below if you are using a terminal with a black background
+
+" Manage syntax highlighting for Markdown files (.md)
+" https://github.com/tpope/vim-markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+let g:markdown_syntax_conceal = 0
+let g:markdown_minlines = 100
+
+" Uncomment below if you are using a terminal with a dark background
 " set background=dark
