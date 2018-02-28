@@ -24,9 +24,9 @@ Plugin 'LaTeX-Box-Team/LaTeX-Box'
 " ...
 call vundle#end()            " required
 " the glaive#Install() should go after the "call vundle#end()"
-call glaive#Install()
+"""""""call glaive#Install()
 " Optional: Enable codefmt's default mappings on the <Leader>= prefix.
-Glaive codefmt plugin[mappings]
+"""""""Glaive codefmt plugin[mappings]
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
