@@ -6,9 +6,9 @@ Public hosting for my vim configuration
 If you're lazy then just copy and paste this single command: 
 
 	git clone git@github.com:mbuckler/vim-config.git ~/vim-config && \
-		chmod +x ~/vim-config/install.sh && \
-		~/vim-config/install.sh && \
-		rm -rf ~/vim-config
+chmod +x ~/vim-config/install.sh && \
+~/vim-config/install.sh && \
+rm -rf ~/vim-config
 
 ## Manual setup
 
