@@ -1,5 +1,5 @@
 # Copy the .vimrc to the home directory
-cp vim-config/.vimrc ~/.vimrc
+cp ~/vim-config/.vimrc ~/.vimrc
 
 # Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
