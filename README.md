@@ -1,5 +1,6 @@
 # vim-config
-Public hosting for my vim configuration
+Public hosting for my vim configuration. For more info check out this
+[blog post](http://www.markbuckler.com/post/latex-in-vim/).
 
 ## Automatic setup
 
@@ -12,18 +13,10 @@ If you're lazy then just copy and paste this single command:
 If the above command doesn't work for you then you need to complete the
 following steps:
 
-	1. Install Vundle: https://github.com/VundleVim/Vundle.vim
+1. Install Vundle: https://github.com/VundleVim/Vundle.vim
 
-	2. Install sensible.vim: https://github.com/tpope/vim-sensible
+2. Install sensible.vim: https://github.com/tpope/vim-sensible
 
-	3. Clone this repo and copy .vimrc to home directory
+3. Clone this repo and copy .vimrc to home directory
 
-	4. Install all packages from command line: `vim +PluginInstall +qall`
-
-## General info on vim
-
-There are many great resources out there for advice on vim, but I've written up
-my favorite commands and advice for editing LaTeX in vim in
-[this blog post](http://www.markbuckler.com/post/latex-in-vim/).
-
-
+4. Install all packages from command line: `vim +PluginInstall +qall`
