@@ -53,6 +53,9 @@ set nojoinspaces
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+filetype plugin indent on
+syntax on
+
 " Use line numbers
 set number
 
