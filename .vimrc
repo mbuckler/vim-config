@@ -45,6 +45,7 @@ filetype plugin indent on    " required
 set tabstop=4
 retab
 set shiftwidth=4
+set expandtab
 set textwidth=80
 set wrap
 set colorcolumn=+1
